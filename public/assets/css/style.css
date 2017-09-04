@@ -49,7 +49,7 @@ h1 {
 #introBox {
     /*background: linear-gradient(to bottom, purple, darkred);*/
     width: 100%;
-    height: auto;
+    height: 800px;
     background-size: cover;
     overflow: hidden;
     color: white;
@@ -65,7 +65,7 @@ h1 {
 #infoBox {
     /*background: linear-gradient(to bottom, darkred, purple);*/
     width: 100%;
-    height: auto;
+    height: 800px;
     background-size: cover;
     overflow: hidden;
     color: white;
@@ -134,6 +134,7 @@ a:active {
     /*background: linear-gradient(to bottom, purple, darkred);*/
     width: 100%;
     height: auto;
+    padding-top: 100px;
     background-size: cover;
     overflow: hidden;
     color: white;
