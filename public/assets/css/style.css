@@ -134,6 +134,7 @@ a:active {
     /*background: linear-gradient(to bottom, purple, darkred);*/
     width: 100%;
     height: auto;
+    padding-top: 100px;
     background-size: cover;
     overflow: hidden;
     color: white;
