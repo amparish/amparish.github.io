@@ -133,8 +133,7 @@ a:active {
 #contactBox {
     /*background: linear-gradient(to bottom, purple, darkred);*/
     width: 100%;
-    height: auto;
-    padding-top: 100px;
+    height: 700px;
     background-size: cover;
     overflow: hidden;
     color: white;
