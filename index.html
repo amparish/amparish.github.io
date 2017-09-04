@@ -1,1 +1,146 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="public/assets/css/animate.css">
+        <link rel="stylesheet" href="public/assets/css/style.css" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="public/assets/js/wow.min.js"></script>
+		<script>
+			new WOW().init();
+		</script>
+		<title>Alex Parish</title>
+	</head>
+	<body>
+		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Navbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#"><img id="signature" src="public/assets/img/signature.png"></a>
+				</div>
+				<div class="collapse navbar-collapse" id="Navbar">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#contact">Contact</a></li>
+						<li><a href="#projects">Projects</a></li>
+						<li><a href="#info">Info</a></li>
+						<li><a href="#home">Home</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		
+		<div id="introBox" class="container">
+			<div class="jumbotron">
+				<h1 id="mainHeader" class="animated fadeInRight">Hello! I'm Alex Parish.</h1>
+			</div>
+			<br>
+			<div class="row">
+				<div class="col-md-3"></div>
+				<div class="col-md-6">
+					<p id="introText" class="left animated fadeInRight">I'm a full-stack web developer based in New Braunfels, Texas.</p>
+				</div>
+				<div class="col-md-3"></div>
+			</div>
+		</div>
+
+		<div id="infoBox" class="container">
+			<div class="row">
+				<h1 id="aboutHeader" class="wow animated fadeInLeft">About Me</h1>
+			</div>
+			<div class="row">
+				<div class="col-md-1"></div>
+				<div class="col-md-4">
+					<img id="self" class="wow animated fadeInLeft" src="public/assets/img/IMG_0133.jpg">
+				</div>
+			
+				<div class="col-md-6">
+					<p id="infoText" class="wow animated fadeInLeft">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut interdum enim eget nisi fringilla consectetur. Sed pellentesque felis at nulla fermentum, at condimentum arcu feugiat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla eget dui ut elit mattis fringilla sed id augue. Aliquam ut ipsum nec dolor tincidunt scelerisque at in eros. Ut eget porttitor quam. Duis pulvinar leo lorem, a vestibulum urna volutpat vitae. Nulla velit ante, semper sed efficitur a, tempus nec orci. Nullam ac eros eget eros ultrices congue convallis at urna. Quisque imperdiet tempus sollicitudin. Fusce tempor porttitor neque. Suspendisse in nisl dapibus, fringilla ante id, elementum sem. Ut vitae massa vel mi condimentum condimentum. Aliquam tristique elit dui, eget consequat ligula semper sit amet. Aliquam elementum libero vitae tempus varius.</p>
+				</div>
+				<div class="col-md-1"></div>
+			</div>
+		</div>
+
+		<div id="projectsBox" class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h1 id="projHeader" class="wow animated fadeInRight">Projects</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-2"></div>
+				<div class="col-md-2">
+					<div id="projPanel1" class="panel panel-default projPanel wow animated fadeInRight">
+						<div class="panel-body">
+							<img id="projImg" src="public/assets/img/news-scraper.png">
+							<p style="color: black;">News Scraper</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<div id="projPanel2" class="panel panel-default projPanel wow animated fadeInRight">
+						<div class="panel-body">
+							<img id="projImg" src="public/assets/img/hangman.png">
+							<p style="color: black;">Hangman</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<div id="projPanel3" class="panel panel-default projPanel wow animated fadeInRight">
+						<div class="panel-body">
+							<p style="color: black;">Placeholder</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<div id="projPanel4" class="panel panel-default projPanel wow animated fadeInRight">
+						<div class="panel-body">
+							<p style="color: black;">Placeholder</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-2"></div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<a href="https://github.com/amparish"><p class="wow animated fadeInRight" id="projFooter">See more at Github</p></a>
+				</div>
+			</div>
+			<br>
+		</div>
+
+		<div id="contactBox" class="container">
+			<div class="row">
+				<h1 id="contactHeader" class="wow animated fadeInUp">Contact</h1>
+			</div>
+			<br>
+			<div class="row">
+				<div class="col-md-4"></div>
+				<div class="col-md-4">
+					<div class="panel panel-default wow animated fadeInUp">
+						<div class="panel-body">
+							<a href="https://www.linkedin.com/in/alex-parish/"><img alt="LinkedIn" src="public/assets/img/linkedin.png"/></a>
+							<a href="mailto:alexmparish@gmail.com"><img alt="Email" src="public/assets/img/email.png"/></a>
+							<a href="https://github.com/amparish"><img alt="Github" src="public/assets/img/github.png"/></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4"></div>
+			</div>
+		</div>
+
+		<div class="footer">
+			<div class="container-fluid">
+				<p style="font-size: 14px; text-align: center;">© 2017 Copyright Alex Parish</p>
+			</div>
+		</div>	
+
+	</body>
+</html>
