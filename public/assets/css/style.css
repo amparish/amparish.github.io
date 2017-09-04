@@ -192,7 +192,4 @@ p {
     #projPanel {
         height: 180px;
     }
-    #projImg {
-        transform: rotate(90deg);
-    }
 }
