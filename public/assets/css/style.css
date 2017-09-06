@@ -21,7 +21,7 @@ body {
 }
 
 h1 {
-    text-shadow: 2px 2px black;
+    text-shadow: 4px 4px black;
 }
 
 .jumbotron {
@@ -49,6 +49,7 @@ h1 {
 #introText {
     text-align: center;
     font-size: 36px;
+    text-shadow: 2px 2px black;
 }
 
 #infoBox {
@@ -58,6 +59,10 @@ h1 {
     overflow: hidden;
     color: white;
     margin-bottom: 0;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .5);
+}
+#infoText {
+    text-shadow: 2px 2px black;
 }
 #self {
     width: 400px;
@@ -67,7 +72,6 @@ h1 {
 }
 #about {
     background-image: url("../img/records.png");
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
 }
 
 #projectsBox {
@@ -80,7 +84,7 @@ h1 {
     margin-bottom: 0;
 }
 #projHeader {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     text-align: center;
 }
 .projPanel {
@@ -88,14 +92,19 @@ h1 {
 }
 #projPanel1 {
     -webkit-animation-delay: 1s;
+    margin-bottom: 50px;
+}
+#projPanel2 {
+    margin-top: 50px;
 }
 #projPanel3 {
     -webkit-animation-delay: 2s;
+    margin-bottom: 50px;
 }
 #projPanel4 {
     -webkit-animation-delay: 3s;
+    margin-top: 50px;
 }
-
 #projImg {
     max-width: 100%;
     height: auto;
@@ -158,17 +167,13 @@ p {
     font-size: 18px;
 }
 
-
-
-
-
 .fadeInRight {
     text-align: left;
     -webkit-animation-duration: 3s;
 }
 
 .left {
-    margin: 5px;
+    margin: 20px;
     -webkit-animation-delay: 2s;
     -webkit-animation-duration: 3s;
 }
