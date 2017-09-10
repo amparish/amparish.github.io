@@ -91,7 +91,9 @@
 						<div id="projPanel1" class="panel panel-default projPanel wow animated fadeInLeft">
 							<div class="panel-body">
 								<img id="projImg" alt="A web app that scrapes news articles from Pitchfork.com." title="A web app that scrapes news articles from Pitchfork.com." src="public/assets/img/news-scraper.png">
-								<p style="color: black;">News Scraper</p>
+								<a id="collapseToggler" role="button" data-toggle="collapse" href="#collapse1" aria-expanded="false" aria-controls="collapse1">
+									News Scraper
+								</a>
 							</div>
 						</div>
 					</a>
@@ -101,7 +103,9 @@
 						<div id="projPanel2" class="panel panel-default projPanel wow animated fadeInLeft">
 							<div class="panel-body">
 								<img id="projImg" alt="A simple Hangman-style game where all the answers are alt-rock bands." title="A simple Hangman-style game where all the answers are alt-rock bands." src="public/assets/img/hangman.png">
-								<p style="color: black;">Hangman</p>
+								<a id="collapseToggler" role="button" data-toggle="collapse" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
+									Hangman
+								</a>
 							</div>
 						</div>
 					</a>
@@ -111,7 +115,9 @@
 						<div id="projPanel3" class="panel panel-default projPanel wow animated fadeInRight">
 							<div class="panel-body">
 								<img id="projImg" alt="Site that utilizes the Petfinder API to display adoptable pets in a user's area." title="Site that utilizes the Petfinder API to display adoptable pets in a user's area." src="public/assets/img/adoptable.png">
-								<p style="color: black;">Adoptable</p>
+								<a id="collapseToggler" role="button" data-toggle="collapse" href="#collapse3" aria-expanded="false" aria-controls="collapse3">
+									Adoptable
+								</a>
 							</div>
 						</div>
 					</a>
@@ -121,10 +127,45 @@
 						<div id="projPanel4" class="panel panel-default projPanel wow animated fadeInRight">
 							<div class="panel-body">
 								<img id="projImg" alt="Food truck ordering app that sends customers' orders to vendors via SMS." title="Food truck ordering app that sends customers' orders to vendors via SMS." src="public/assets/img/truckstop.png">
-								<p style="color: black;">Truckstop</p>
+								<a id="collapseToggler" role="button" data-toggle="collapse" href="#collapse4" aria-expanded="false" aria-controls="collapse4">
+									Truckstop
+								</a>
 							</div>
 						</div>
 					</a>
+				</div>
+				<div class="col-md-2"></div>
+			</div>
+			<br/>
+			<div class="row">
+				<div class="col-md-2"></div>
+				<div class="col-md-8">
+					<div class="collapse" id="collapse1">
+						<div class="well">
+							<p id="collapseText">NEWS SCRAPER CONTENT GOES HERE</p>
+							<img id="collapseImg" src=""/>
+						</div>
+					</div>
+					<div class="collapse" id="collapse2">
+						<div class="well">
+							<p id="collapseText">This app is a standard Hangman-style game that takes in keyboard input from the user to dynamically update the HTML page when a letter in a given term is guessed correctly or incorrectly.</p>
+							<p id="collapseText">At the start, the term to be guessed - randomly pulled from a list of 20 musicians I like - is replaced with underscores in place of the letters. As a player guesses letters, correct letters will replace the underscores, dynamically updating the page each time. Incorrect letters are displayed below this, along with a counter with the remaining guesses allowed on the current term. If a player guesses the term correctly, one point is added to their score, and an image of the musician is displayed. If the remaining guesses counter reaches zero, no points are added, and a new random term is selected while the guess counter and used letters reset.</p>
+							<br/>
+							<img id="collapseImg" src="public/assets/img/hangman_code.png"/>
+						</div>
+					</div>
+					<div class="collapse" id="collapse3">
+						<div class="well">
+							<p id="collapseText">ADOPTABLE CONTENT GOES HERE</p>
+							<img id="collapseImg" src=""/>
+						</div>
+					</div>
+					<div class="collapse" id="collapse4">
+						<div class="well">
+							<p id="collapseText">TRUCKSTOP CONTENT GOES HERE</p>
+							<img id="collapseImg" src=""/>
+						</div>
+					</div>
 				</div>
 				<div class="col-md-2"></div>
 			</div>
@@ -162,6 +203,14 @@
 				<p style="font-size: 14px; text-align: center;">© 2017 Copyright Alex Parish 💀</p>
 			</div>
 		</div>	
+
+		<script type="text/javascript">
+			$('.collapse').on('show.bs.collapse', function () {
+				$('.collapse.in').each(function(){
+					$(this).collapse('hide');
+				});
+			});
+		</script>
 
 	</body>
 </html>
