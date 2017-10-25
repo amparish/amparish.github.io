@@ -1,10 +1,16 @@
 body {
-    background: linear-gradient(to bottom right, #330066, #CC99FF);
+    /*background: linear-gradient(to bottom right, #330066, #CC99FF);*/
+    background: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+    font-family: 'Comfortaa', cursive;
 }
 
 .navbar {
     margin-bottom: 0;
     background: rgba(0, 0, 0, 100);
+    /*background: url("../img/navbar.jpg");*/
     border: none;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
 }
@@ -12,7 +18,7 @@ body {
     text-align: right;
 }
 .nav {
-    font-family: 'Francois One', sans-serif;
+    font-family: 'Comfortaa', cursive;
     font-size: 18px;
 }
 .navbar-brand {
@@ -85,6 +91,9 @@ h1 {
     color: white;
     margin-top: 80px;
     margin-bottom: 0;
+}
+small {
+    color: black;
 }
 #projHeader {
     margin-bottom: 20px;
