@@ -192,6 +192,12 @@ p {
     font-size: 18px;
 }
 
+#copyrightText {
+    font-size: 14px;
+    text-align: center;
+    color: white;
+}
+
 .fadeInRight {
     text-align: left;
     -webkit-animation-duration: 3s;
